@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bangers|Bungee+Inline|Sofia');
+body{
+  background-color: black;
+}
+h2, h1 {
+  margin: 0;
+}
+footer {
+  margin-top: 200px;
+}
+.nav{
+  font-family: 'Bungee Inline', cursive;
+  font-size: 26px;
+
+  /*border: 1px solid;
+  border-color: white;*/
+}
+.jumbotron {
+  color: #A2112A;
+  font-family: 'Bangers', cursive;
+  background-color: rgb(166, 17, 17);
+  background-image: url(../assets/pow-hi.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px 550px;
+}
+.ladyFinger{
+  font-family: 'Sofia', cursive;
+  color: rgb(215, 209, 215);
+  text-align: center;
+}
