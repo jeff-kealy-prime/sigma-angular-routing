@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Bangers|Bungee+Inline|Sofia');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Bungee+Inline|Sofia|Luckiest+Guy|Eater');
 body{
   background-color: black;
 }
@@ -25,8 +25,22 @@ footer {
   background-position: center;
   background-size: 950px 550px;
 }
+.story{
+  font-family: 'Bangers', cursive;
+  font-size: 37px;
+  color: #d7d1d7;
+}
 .ladyFinger{
   font-family: 'Sofia', cursive;
-  color: rgb(215, 209, 215);
-  text-align: center;
+  color: #d7d1d7;
+  margin: 30px 0 30px 0;
+}
+
+.boxzor{
+  font-family: 'Luckiest Guy', cursive;
+}
+.barfmouth{
+  font-family: 'Eater', cursive;
+  color: #d7d1d7;
+  margin: 30px 0 30px 0;
 }
