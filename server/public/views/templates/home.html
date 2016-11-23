@@ -1,2 +1,21 @@
-<h2>Superheros!</h2>
-<p>{{home.message}}</p>
+<h1 class="home story text-center">These are the greatest super heroes of the modern era</h1>
+<!-- <button type="button" class="btn btn-danger btn-lg col-md-12" ng-click="barfmouth.toggle()">Barfmouth</button> -->
+
+
+  <button class="go btn btn-danger btn-lg col-md-8 col-md-offset-2" type="button" ng-click="home.toggle()">HEROES, LET'S ROLL!</button>
+<div class="row">
+  <div class="col-md-4">
+    <div class="box rotate" ng-class="{'box': home.boxClass, 'ladyFingerCircle': !home.boxClass} ">
+    </div><h3 class="ladyFinger">"Scatch and burn!"</h3>
+  </div>
+  <div class="col-md-4">
+    <!-- <button type="button" ng-click="home.toggle()">BarfMouth</button> -->
+    <div class="box rotate" ng-class="{'box': home.boxClass, 'barfmouthCircle': !home.boxClass} ">
+    </div><h3 class="barfmouth">"BLAaaaaaarrrrrgggggghh"</h3>
+  </div>
+  <div class="col-md-4">
+    <!-- <button type="button" ng-click="home.toggle()">BoxZor</button> -->
+    <div class="box rotate" ng-class="{'box': home.boxClass, 'boxzorCircle': !home.boxClass} ">
+    </div><h3 class="boxzor" text-align="center">"I'm a box"</h3>
+  </div>
+</div>

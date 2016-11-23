@@ -9,6 +9,10 @@ h2, h1 {
 footer {
   margin-top: 200px;
 }
+.go{
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+}
 .nav{
   font-family: 'Bungee Inline', cursive;
   font-size: 26px;
@@ -19,7 +23,7 @@ footer {
 .jumbotron {
   color: #A2112A;
   font-family: 'Bangers', cursive;
-  background-color: rgb(166, 17, 17);
+  background-color: #a61111;
   background-image: url(../assets/pow-hi.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -34,13 +38,75 @@ footer {
   font-family: 'Sofia', cursive;
   color: #d7d1d7;
   margin: 30px 0 30px 0;
-}
-
-.boxzor{
-  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
 }
 .barfmouth{
   font-family: 'Eater', cursive;
   color: #d7d1d7;
   margin: 30px 0 30px 0;
+  text-align: center;
+
+}
+.boxzor{
+  font-family: 'Luckiest Guy', cursive;
+  color: #d7d1d7;
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.home{
+  margin: 30px 0 30px 0;
+}
+.box {
+  margin: 20px auto;
+  background: #a61111;
+  background-image: url("../assets/pow-hi.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 200px;
+  width: 300px;
+  height: 300px;
+}
+.ladyFingerCircle {
+  transform: rotate(360deg);
+
+  background-image: url("../assets/fingernaillady.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 200px;
+  margin: 70px auto;
+  width: 300px;
+  height: 300px;
+  transition: all 1s ease-in-out;
+}
+.rotate {
+  transition: all 1s ease-in-out;
+}
+
+.barfmouthCircle {
+  transform: rotate(360deg);
+  background-image: url("../assets/barfMouth.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center;
+  border-radius: 200px;
+  margin: 70px auto;
+  width: 300px;
+  height: 300px;
+  transition: all 1.5s ease-in-out;
+}
+
+.boxzorCircle {
+  transform: rotate(360deg);
+  background-image: url("../assets/boxzor.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  border-radius: 200px;
+  margin: 70px auto;
+  width: 300px;
+  height: 300px;
+  transition: all 3s ease-in-out;
 }
